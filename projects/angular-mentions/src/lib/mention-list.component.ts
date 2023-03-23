@@ -4,7 +4,6 @@ import {
 
 import { isInputOrTextAreaElement, getContentEditableCaretCoords } from './mention-utils';
 import { getCaretCoordinates } from './caret-coords';
-import { MentionPosition } from './mention-config';
 
 /**
  * Angular Mentions.
@@ -53,7 +52,7 @@ export class MentionListComponent implements AfterContentChecked {
   }
 
   // lots of confusion here between relative coordinates and containers
-  position(nativeParentElement: HTMLInputElement, iframe: HTMLIFrameElement = null): MentionPosition {
+  position(nativeParentElement: HTMLInputElement, iframe: HTMLIFrameElement = null): any {
     if (isInputOrTextAreaElement(nativeParentElement)) {
       // parent elements need to have postition:relative for this to work correctly?
       this.coords = getCaretCoordinates(nativeParentElement, nativeParentElement.selectionStart, null);
@@ -78,8 +77,6 @@ export class MentionListComponent implements AfterContentChecked {
     }
     // set the default/inital position
     this.positionElement();
-
-    return {top: this.coords.top, left: this.coords.left};
   }
 
   get activeItem() {
