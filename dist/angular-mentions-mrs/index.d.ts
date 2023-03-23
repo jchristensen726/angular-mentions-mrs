@@ -1,6 +1,6 @@
 /**
  * Generated bundle index. Do not edit.
  */
-/// <amd-module name="angular-mentions-mrs" />
+/// <amd-module name="angular-mentions" />
 export * from './public-api';
-//# sourceMappingURL=angular-mentions-mrs.d.ts.map
+//# sourceMappingURL=angular-mentions.d.ts.map

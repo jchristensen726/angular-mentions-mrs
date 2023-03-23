@@ -905,4 +905,4 @@ MentionModule.ɵinj = /*@__PURE__*/ i0.ɵɵdefineInjector({ imports: [CommonModu
  */
 
 export { MentionDirective, MentionModule };
-//# sourceMappingURL=angular-mentions-mrs.mjs.map
+//# sourceMappingURL=angular-mentions.mjs.map

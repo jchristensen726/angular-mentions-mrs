@@ -1,5 +1,5 @@
 {
-  "name": "angular-mentions-mrs",
+  "name": "angular-mentions",
   "version": "1.5.1",
 
   "description": "Angular mentions for text fields.",
@@ -10,7 +10,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/jchristensen726/angular-mentions-mrs.git"
+    "url": "https://github.com/jchristensen726/angular-mentions.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"

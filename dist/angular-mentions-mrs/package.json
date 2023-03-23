@@ -1,5 +1,5 @@
 {
-  "name": "angular-mentions-mrs",
+  "name": "angular-mentions",
   "version": "1.5.1",
   "description": "Angular mentions for text fields.",
   "keywords": [
@@ -23,11 +23,11 @@
     "@angular/common": ">=7.2.0",
     "@angular/core": ">=7.2.0"
   },
-  "module": "fesm2015/angular-mentions-mrs.mjs",
-  "es2020": "fesm2020/angular-mentions-mrs.mjs",
-  "esm2020": "esm2020/angular-mentions-mrs.mjs",
-  "fesm2020": "fesm2020/angular-mentions-mrs.mjs",
-  "fesm2015": "fesm2015/angular-mentions-mrs.mjs",
+  "module": "fesm2015/angular-mentions.mjs",
+  "es2020": "fesm2020/angular-mentions.mjs",
+  "esm2020": "esm2020/angular-mentions.mjs",
+  "fesm2020": "fesm2020/angular-mentions.mjs",
+  "fesm2015": "fesm2015/angular-mentions.mjs",
   "typings": "index.d.ts",
   "exports": {
     "./package.json": {
@@ -35,11 +35,11 @@
     },
     ".": {
       "types": "./index.d.ts",
-      "esm2020": "./esm2020/angular-mentions-mrs.mjs",
-      "es2020": "./fesm2020/angular-mentions-mrs.mjs",
-      "es2015": "./fesm2015/angular-mentions-mrs.mjs",
-      "node": "./fesm2015/angular-mentions-mrs.mjs",
-      "default": "./fesm2020/angular-mentions-mrs.mjs"
+      "esm2020": "./esm2020/angular-mentions.mjs",
+      "es2020": "./fesm2020/angular-mentions.mjs",
+      "es2015": "./fesm2015/angular-mentions.mjs",
+      "node": "./fesm2015/angular-mentions.mjs",
+      "default": "./fesm2020/angular-mentions.mjs"
     }
   },
   "sideEffects": false,
