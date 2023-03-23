@@ -17,7 +17,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "prepare": "npm run build"
+    "prepare": "npm run build angular-mentions"
   },
   "author": "JOn Christensen",
   "license": "MIT",
