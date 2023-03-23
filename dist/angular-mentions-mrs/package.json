@@ -9,9 +9,18 @@
   ],
   "repository": {
     "type": "git",
+<<<<<<< HEAD
     "url": "https://github.com/dmacfarlane/angular-mentions.git"
   },
   "author": "Dan MacFarlane",
+=======
+    "url": "https://github.com/jchristensen726/angular-mentions-mrs.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "author": "JOn Christensen",
+>>>>>>> 4b11fe9 (dist)
   "license": "MIT",
   "dependencies": {
     "tslib": "^2.0.0"
