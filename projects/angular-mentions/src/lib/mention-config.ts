@@ -37,6 +37,9 @@ export interface Mentions {
   // option to include the trigger char in the searchTerm event
   returnTrigger?:boolean;
 
+  offsetTop?:number;
+  offsetLeft?:number;
+
   // optional function to format the selected item before inserting the text
   mentionSelect?:(item:any, triggerChar?:string) => (string);
 

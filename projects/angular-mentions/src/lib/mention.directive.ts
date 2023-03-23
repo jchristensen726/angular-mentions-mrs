@@ -73,6 +73,7 @@ export class MentionDirective implements OnChanges {
 
   // event emitted whenever the mention list is opened or closed
   @Output() opened = new EventEmitter();
+  @Output() afterPositioned = new EventEmitter<any>();
   @Output() closed = new EventEmitter();
 
   private triggerChars: { [key: string]: MentionConfig } = {};
@@ -371,6 +372,9 @@ export class MentionDirective implements OnChanges {
     this.searchList.styleOff = this.mentionConfig.disableStyle;
     this.searchList.activeIndex = 0;
     this.searchList.position(nativeElement, this.iframe);
+
+    this.afterPositioned.emit(nativeElement);
+
     window.requestAnimationFrame(() => this.searchList.reset());
   }
 }
